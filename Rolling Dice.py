@@ -1,8 +1,6 @@
 import random
 #help(random)
-min=2
-max= 7
-play= random.randrange(min,max)
+play= random.randrange(2,7)
 Chance = input( " enter y to play, and Stop to End the Game: ")
  if Chance = "y" :
   print( "you rolled ", play )
